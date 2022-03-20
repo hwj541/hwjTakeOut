@@ -16,7 +16,7 @@
           v-for="(shop, index) in shops"
           :key="index"
         >
-          <a>
+          <router-link to="/shop">
             <div class="shop_left">
               <img
                 class="shop_img"
@@ -59,7 +59,7 @@
                 </p>
               </section>
             </div>
-          </a>
+          </router-link>
         </li>
       </ul>
       <img

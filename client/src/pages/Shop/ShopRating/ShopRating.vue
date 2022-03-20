@@ -1,6 +1,6 @@
-<!-- 商店评分组件 -->
+<!-- 商店评分组件-子路由 -->
 <template>
-  <div></div>
+  <div>ShopRating</div>
 </template>
 
 <script>

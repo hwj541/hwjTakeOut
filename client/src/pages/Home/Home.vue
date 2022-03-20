@@ -91,16 +91,7 @@ export default {
     HeaderTop,
     ShopList,
   },
-  mounted() {
-    new Swiper(".swiper", {
-      loop: true, // 循环模式选项
-
-      // 如果需要分页器
-      pagination: {
-        el: ".swiper-pagination",
-      },
-    });
-  },
+  mounted() {},
   data() {
     return {
       baseImageUrl: "https://fuss10.elemecdn.com",
@@ -113,7 +104,6 @@ export default {
         //页面完成更新后就执行里面的代码
         new Swiper(".swiper", {
           loop: true, // 循环模式选项
-
           // 如果需要分页器
           pagination: {
             el: ".swiper-pagination",
@@ -122,9 +112,7 @@ export default {
       });
     },
   },
-
   created() {},
-
   computed: {
     ...mapState(["address", "categorys", "userInfo"]),
     categorysArr() {

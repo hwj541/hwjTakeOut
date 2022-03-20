@@ -1,6 +1,6 @@
-<!-- 商店信息组件 -->
+<!-- 商店信息组件-子路由 -->
 <template>
-  <div></div>
+  <div>ShopInfo</div>
 </template>
 
 <script>
