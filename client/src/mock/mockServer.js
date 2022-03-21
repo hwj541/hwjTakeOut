@@ -3,7 +3,6 @@
  */
 import Mock from 'mockjs'
 import data from './data.json'
-// import imgData from 
 
 // 返回goods的接口
 Mock.mock('/goods', {code:0, data: data.goods})
@@ -11,5 +10,4 @@ Mock.mock('/goods', {code:0, data: data.goods})
 Mock.mock('/ratings', {code:0, data: data.ratings})
 // 返回info的接口
 Mock.mock('/info', { code: 0, data: data.info })
-//返回商家图片的接口
-// Mock.mock({code:0,data:imgData})
+

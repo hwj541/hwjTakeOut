@@ -20,7 +20,7 @@
             <div class="shop_left">
               <img
                 class="shop_img"
-                :src="baseImgUrl+shop.image_path"
+                src="./images/shop/3.jpg"
               >
             </div>
             <div class="shop_right">
