@@ -3,7 +3,7 @@
     <keep-alive>
       <router-view></router-view>
     </keep-alive>
-
+    <div>做了修改</div>
     <FooterGuide v-show="$route.meta.showFooter"></FooterGuide>
   </div>
 </template>
